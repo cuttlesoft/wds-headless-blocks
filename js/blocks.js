@@ -6,7 +6,7 @@
  */
 
 /* global wp, lodash */
-const {validateThemeColors, validateThemeGradients} = wp.blockEditor
+const {useSelect} = wp.data;
 const {useEffect, createElement} = wp.element
 const {addFilter} = wp.hooks
 const {createHigherOrderComponent} = wp.compose
@@ -112,13 +112,13 @@ const withColorPaletteHexValues = createHigherOrderComponent((BlockEdit) => {
       }
     } = props
 
-    useEffect(() => {
-      // Note: This may not work as expected if a custom theme palette has been set.
+	 // Note: This may not work as expected if a custom theme palette has been set.
       // In that case, this filter may need to be customized.
-      const defaultColors = validateThemeColors()
+      const defaultColors = useSelect("core/block-editor").getSettings().colors;
+      const defaultGradients =
+        useSelect("core/block-editor").getSettings().gradients;
 
-      const defaultGradients = validateThemeGradients()
-
+    useEffect(() => {
       // Check for presence of background color attr.
       if (backgroundColor) {
         // Get color object by slug.
