@@ -5,7 +5,7 @@
  * Description: Headless extension handling Gutenberg block functionality.
  * Author: Cuttlesoft <engineering@cuttlesoft.com>
  * Author URI: https://cuttlesoft.com
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 5.6
  * Requires PHP: 7.4
  * License: GPL-2
