@@ -5,13 +5,13 @@
  * Description: Headless extension handling Gutenberg block functionality.
  * Author: Cuttlesoft <engineering@cuttlesoft.com>
  * Author URI: https://cuttlesoft.com
- * Version: 1.0.1
+ * Version: 1.0.2
  * Requires at least: 5.6
  * Requires PHP: 7.4
  * License: GPL-2
  * License URI: https://www.gnu.org/licenses/gpl-2.0.html
- * GitHub Plugin URI: cuttlesoft/wds-headless-blocks
- * Release Asset: true
+ * GitHub Plugin URI: https://github.com/cuttlesoft/wds-headless-blocks
+ * Primary Branch: cuttle-main
  *
  * @package WDS_Headless_Blocks
  */
