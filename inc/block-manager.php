@@ -42,7 +42,6 @@ function disabled_blocks() {
 		'core/tag-cloud',
 		'core/text-columns',
 		'core/verse',
-		'core/video',
 		'variation;core/embed;amazon-kindle',
 		'variation;core/embed;animoto',
 		'variation;core/embed;cloudup',
