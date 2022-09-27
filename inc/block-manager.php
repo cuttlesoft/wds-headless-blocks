@@ -23,7 +23,6 @@ if ( ! defined( 'BLOCK_MANAGER_VERSION' ) ) {
 function disabled_blocks() {
 	return [
 		'core/archives',
-		'core/audio',
 		'core/calendar',
 		'core/categories',
 		'core/file',
